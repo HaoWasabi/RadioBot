@@ -1,0 +1,23 @@
+Table channel {
+    id int [pk, increment]
+    group_id int [ref: > group.id]
+    name varchar
+    description varchar
+    link varchar
+    is_active int
+}
+
+Table group {
+    id int [pk, increment]
+    name varchar
+    description varchar
+    is_active int
+}
+
+Table server {
+    id int [pk, increment]
+    name varchar
+    color_embed varchar
+    is_active int
+}
+
