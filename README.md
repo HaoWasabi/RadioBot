@@ -8,11 +8,11 @@ Bạn muốn nghe radio ngay trên kênh âm thanh của server Discord? RDO s�
 
 ```
                     -- GCdev Solo Project --
-                                                       Spring 2025
-         ██████╗  ██████╗██████╗ ███████╗██╗   ██╗     + HaoWasabi
-        ██╔════╝ ██╔════╝██╔══██╗██╔════╝██║   ██║     + Discord
-        ██║  ███╗██║     ██║  ██║█████╗  ██║   ██║     + ChatGPT
-        ██║   ██║██║     ██║  ██║██╔══╝  ╚██╗ ██╔╝     
+                                                      
+         ██████╗  ██████╗██████╗ ███████╗██╗   ██╗     Spring 2025
+        ██╔════╝ ██╔════╝██╔══██╗██╔════╝██║   ██║     + HaoWasabi
+        ██║  ███╗██║     ██║  ██║█████╗  ██║   ██║     + Discord
+        ██║   ██║██║     ██║  ██║██╔══╝  ╚██╗ ██╔╝     + ChatGPT
         ╚██████╔╝╚██████╗██████╔╝███████╗ ╚████╔╝      
         ╚═════╝  ╚═════╝╚═════╝ ╚══════╝  ╚═══╝        
 
@@ -51,23 +51,28 @@ Chỉ định RDO tham gia kênh âm thanh của Discord mà bạn ở đó.
 - `_play <id_channel>`: Plays the radio channel with the specified id.
 Phát kênh radio có id được chỉ định.
 
+- `_stop`: Stop the currently playing radio.
+Dừng chương trình radio đang phát.
+
 - `_leave`: Let RDO leave the voice channel.
 Chỉ định RDO rời kênh âm thanh.
 
 - `_setcolor`: Choice default color for embed.
 Chọn màu mặc định cho embed.
 
+- `_help`: Show more info on commands.
+Hiển thị thêm thông tin về lệnh.
+
 ### Admin commands:
-- `_shutdown`: Shut down bot. Tắt nguồn bot.
+- `_ctrl`: Control the bot. Điều khiển bot
 
-- `_insert`: Insert data to the database.
-Thêm dữ liệu vào database.
+- `_shutdown`: Shut down the bot. Tắt nguồn bot.
 
-- `_update`: Update data in the database.
-Sửa dữ liệu trong database. 
+- `_group`: Change radio groups in database.
+Thay đổi dữ lệu nhóm radio.
 
-- `_delete`: Delte data in the database.
-Xóa dữ liệu trong database.
+- `_channel`: Change radio channels in database
+Thay đổi dữ liệu kênh radio.
 
 **Note / Lưu ý**:  
 This version is not built to work in DM channels.  
